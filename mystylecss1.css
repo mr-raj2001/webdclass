@@ -1,0 +1,19 @@
+p{
+    color: aqua;
+    font-size: 36px;
+
+}
+h1,h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p h2{
+    color: yellow;
+}
+
+.grey{
+    color: gray;
+}
+#italic{
+    font-style: italic;
+}
