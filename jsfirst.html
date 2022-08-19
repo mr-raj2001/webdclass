@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert("hello world");
+        console.log("hello world");
+        let myVar="hello world welcome";
+        console.log(typeof "hello");
+        console.log(typeof true);
+        console.log(myVar.length);
+        console.log(myVar.indexOf("lc"))
+        console.log(myVar.slice(5,18));
+        console.log(myVar.includes("world"));
+        console.log(myVar.toUpperCase());
+        console.log(myVar.toLowerCase());
+        if (new Date().getHours() < 18) {
+ console.log("good evening");
+ let person = prompt("Please enter your name", "Harry Potter");
+ if (person != null) {
+    alert("Hello " + person + "! How are you today?");
+  }
+
+  var num1=prompt("Enter first number");
+  var num2=prompt("Enter second number");
+  if(num1 < num2){
+    alert("num1 is smaller");
+  }else{
+    alert("num2 is smaller");
+  }
+  for(var i=0;i<10;i++){
+    document.write(i+"<br>");
+  }
+  let text = "";
+let j = 0;
+while (j < 10) {
+  document.write(text+"the number is"+j+"<br>");
+  j++;
+}
+}
+    </script>
+</body>
+</html>
